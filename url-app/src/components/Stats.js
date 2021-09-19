@@ -19,7 +19,7 @@ export default function Stats() {
 function Card(props) {
     return (
         <div>
-            <img />
+            <img alt="icon"/>
             <h2>{props.title}</h2>
             <p>{props.detail}</p>
         </div>

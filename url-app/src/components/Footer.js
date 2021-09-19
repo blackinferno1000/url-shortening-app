@@ -1,8 +1,8 @@
 import React from "react";
-import Facebook from '../../images/icon-facebook.svg'
-import Twitter from '../../images/icon-twitter.svg'
-import Pinterest from '../../images/icon-pinterest.svg'
-import Instagram from '../../images/icon-instagram.svg'
+import Facebook from '../images/icon-facebook.svg'
+import Twitter from '../images/icon-twitter.svg'
+import Pinterest from '../images/icon-pinterest.svg'
+import Instagram from '../images/icon-instagram.svg'
 
 export default function Footer() {
     return (

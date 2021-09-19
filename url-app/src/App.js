@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from "./Navbar.js";
-import Hero from "./Hero.js";
-import Search from "./Search.js";
-import Stats from "./Stats.js";
-import Footer from "./Footer.js";
+import Navbar from "./components/Navbar.js";
+import Hero from "./components/Hero.js";
+import Search from "./components/Search.js";
+import Stats from "./components/Stats.js";
+import Footer from "./components/Footer.js";
 
 function App() {
   return (

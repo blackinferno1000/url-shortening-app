@@ -23,16 +23,16 @@ export default function Search() {
                      setSearch(e.target.value)
                  }}></input>
                  <button onClick={handleSearch}>Shorten it!</button>
-                { results && results.map((result) => {
-                    <Result link={result.link} shortLink={result.shortLink} />
-                })}
+                { results && results.map((result, index) => 
+                    <Result key={index} link={result.link} shortLink={result.shortLink} />
+                )}
             </div>
         </div>
     )
 }
 
 function Result(props) {
-    let [clicked, setClicked] = useState(false);
+    // let [clicked, setClicked] = useState(false);
     return (
         <div>
             <p>{props.link}</p>
