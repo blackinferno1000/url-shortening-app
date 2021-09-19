@@ -1,6 +1,5 @@
-import React from "react";
-import { hot } from "react-hot-loader";
-import "../App.css";
+import logo from './logo.svg';
+import './App.css';
 import Navbar from "./Navbar.js";
 import Hero from "./Hero.js";
 import Search from "./Search.js";
@@ -19,5 +18,4 @@ function App() {
   );
 }
 
-export default hot(module)(App);
-
+export default App;
