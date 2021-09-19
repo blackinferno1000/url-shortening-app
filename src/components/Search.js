@@ -7,12 +7,11 @@ export default function Search() {
 
     let handleSearch = () => {
         if(search.length > 0) {
-            console.log(search)
             fetch(`https://api.shrtco.de/v2/shorten?url=${search}`)
             .then(res => res.json())
             .then(data => setResults((arr) => [...arr,{
                 link: data.result.original_link,
-                ShortLink: data.result.short_link,
+                shortLink: data.result.short_link,
             }]))
         }
     }
