@@ -6,7 +6,7 @@ import Instagram from '../images/icon-instagram.svg'
 
 export default function Footer() {
     return (
-        <div>
+        <div className='footer'>
             <div>
                 <h1>Boost your links today</h1>
                 <button>Get Started</button>

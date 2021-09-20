@@ -1,5 +1,6 @@
 :root {
   --cyan: hsl(180, 66%, 49%);
+  --light-cyan: hsl(180, 59%, 70%);
   --violet: hsl(257, 27%, 26%);
   --red: hsl(0, 87%, 67%);
   --gray: hsl(0, 0%, 75%);
@@ -13,3 +14,129 @@
   font-size: 18px;
 }
 
+nav {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: var(--violet);
+  font-size: 2rem;
+}
+
+.nav {
+  display: none;
+}
+
+.mobileNav {
+  position: absolute;
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  background-color: var(--violet);
+  padding: 1.5rem;
+  border-radius: 15px;
+  width: 75vw;
+  color: white;
+  top: 5rem;
+  right: 5vw;
+  left: 5vw;
+}
+
+.showNav {
+  display: flex;
+}
+
+.mobileNav ul:first-child {
+  border-bottom: 1px solid white;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hamburger {
+  width: 50px;
+  height: 20px;
+  padding-top: .8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hamburger span{ 
+  height: 3px;
+  width: 25px;
+  border-radius: 5px;
+  background: var(--gray);
+}
+
+nav li, .footer li {
+  list-style: none;
+}
+
+nav li {
+  padding-bottom: 1rem;
+}
+
+nav li:last-child {
+  padding-bottom: 0;
+}
+
+nav ul, .footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+.signup {
+  padding: .5rem;
+  border-radius: 2rem;
+  height: 35px;
+  color: white !important;
+  background: var(--cyan)
+}
+
+.signup:hover {
+  background: var(--light-cyan);
+  color: white;
+}
+
+@media only screen and (min-width: 650px) {
+  nav {
+    width: 95vw;
+  }
+
+  .nav {
+    padding: 2px 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav li {
+    padding-right: 1rem;
+    color: var(--gray);
+    margin-top: .5rem;
+  }
+
+  .nav li:hover {
+    color: var(--dark-violet);
+  }
+
+  .nav li:first-child {
+    padding-left: 2rem;
+  }
+
+  .nav ul:nth-of-type(2) li:last-child {
+    padding: .5rem;
+    margin-top: 0;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  .signup {
+    height: 30px;
+  }
+}
