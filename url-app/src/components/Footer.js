@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="footer-links">
         <span className="logo">Shortly</span>
         <div className="feature-list">
-          <span>Features</span>
+          <div>Features</div>
           <ul>
             <li>Link Shortening</li>
             <li>Branded Links</li>
@@ -22,7 +22,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className="resource-list">
-          <span>Resources</span>
+          <div>Resources</div>
           <ul>
             <li>Blog</li>
             <li>Developers</li>
@@ -30,7 +30,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className="company-list">
-          <span>Company</span>
+          <div>Company</div>
           <ul>
             <li>About</li>
             <li>Our Team</li>
@@ -39,10 +39,10 @@ export default function Footer() {
           </ul>
         </div>
         <div className="icons">
-          <img src={Facebook} alt="facebook logo" />
-          <img src={Twitter} alt="twitter logo" />
-          <img src={Pinterest} alt="pinterest logo" />
-          <img src={Instagram} alt="instagram logo" />
+          <img className="footer-icon" src={Facebook} alt="facebook logo" />
+          <img className="footer-icon" src={Twitter} alt="twitter logo" />
+          <img className="footer-icon" src={Pinterest} alt="pinterest logo" />
+          <img className="footer-icon" src={Instagram} alt="instagram logo" />
         </div>
       </div>
     </div>
