@@ -1,7 +1,5 @@
 import React from "react";
 import { useState, useEffect, useRef } from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar() {
   let [isMobile, setIsMobile] = useState(null)
@@ -37,7 +35,6 @@ export default function Navbar() {
         <li>Pricing</li>
         <li>Resources</li>
       </ul>
-      {/* <FontAwesomeIcon icon={faCoffee} /> */}
       <ul>
         <li>Login</li>
         <li className="signup">Sign Up</li>

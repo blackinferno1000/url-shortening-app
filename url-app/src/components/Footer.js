@@ -1,8 +1,8 @@
 import React from "react";
-import Facebook from "../images/icon-facebook.svg";
-import Twitter from "../images/icon-twitter.svg";
-import Pinterest from "../images/icon-pinterest.svg";
-import Instagram from "../images/icon-instagram.svg";
+import { ReactComponent as Facebook } from "../images/icon-facebook.svg";
+import { ReactComponent as Twitter } from "../images/icon-twitter.svg";
+import { ReactComponent as Pinterest } from "../images/icon-pinterest.svg";
+import { ReactComponent as Instagram } from "../images/icon-instagram.svg";
 
 export default function Footer() {
   return (
@@ -39,10 +39,10 @@ export default function Footer() {
           </ul>
         </div>
         <div className="icons">
-          <img className="footer-icon" src={Facebook} alt="facebook logo" />
-          <img className="footer-icon" src={Twitter} alt="twitter logo" />
-          <img className="footer-icon" src={Pinterest} alt="pinterest logo" />
-          <img className="footer-icon" src={Instagram} alt="instagram logo" />
+          <Facebook className="footer-icon" alt="facebook logo" />
+          <Twitter className="footer-icon" alt="twitter logo" />
+          <Pinterest className="footer-icon" alt="pinterest logo" />
+          <Instagram className="footer-icon" alt="instagram logo" />
         </div>
       </div>
     </div>

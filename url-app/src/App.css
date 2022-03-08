@@ -378,13 +378,14 @@ nav ul,
   justify-content: space-between;
 }
 
-.footer-links .icons img {
+.footer-links .icons svg {
   padding: 0.5rem;
 }
 
-.footer-links li:hover {
+.footer-links li:hover, .footer-icon path:hover{
   cursor: pointer;
   color: var(--cyan);
+  fill: var(--cyan);
 }
 
 @media only screen and (min-width: 650px) {
