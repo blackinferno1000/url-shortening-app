@@ -11,16 +11,13 @@
 
 .App {
   margin-top: 1rem;
-  /* width: 100vw; */
   font-family: "Poppins", sans-serif;
   font-size: 18px;
-  /* overflow-x: hidden; */
 }
 
 /* Navabr */
 
 nav {
-  /* width: 100%; */
   padding-top: 1rem;
   display: flex;
   justify-content: space-between;
@@ -117,7 +114,6 @@ nav ul,
 
 .hero {
   padding: 0 5%;
-  /* display: flex; */
 }
 
 .illustration {
@@ -156,13 +152,11 @@ nav ul,
 
 .search-container {
   padding: 0 5%;
-  /* width: 100%; */
   background-color: rgb(248, 239, 239);
   margin-top: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* padding-bottom: 5%; */
 }
 
 .search {
@@ -287,21 +281,19 @@ nav ul,
   align-items: center;
   width: 80%;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .stat-title h1 {
   font-size: 3rem;
-  text-align: center;
 }
 
 .stat-title p {
   font-size: 1rem;
-  text-align: center;
 }
 
 .stat-cards {
   display: flex;
-  /* flex-wrap: wrap; */
   flex-direction: column;
   align-items: center;
   padding-bottom: 3rem;
@@ -395,11 +387,6 @@ nav ul,
   color: var(--cyan);
 }
 
-.footer-icon:hover {
-  cursor: pointer;
-  fill: var(--cyan);
-}
-
 @media only screen and (min-width: 650px) {
   /* Navabr */
 
@@ -483,10 +470,6 @@ nav ul,
   .result {
     justify-content: space-between;
   }
-
-  /* Stats */
-
-  /* Footer */
 }
 
 @media only screen and (min-width: 800px) {
@@ -530,9 +513,6 @@ nav ul,
 @media only screen and (min-width: 1400px) {
   /* Hero */
 
-  .hero {
-  }
-
   .illustration {
     width: 100%;
   }
@@ -560,8 +540,4 @@ nav ul,
     bottom: 8.5rem;
     right: 42%;
   }
-
-  /* Stats */
-
-  /* Footer */
 }
